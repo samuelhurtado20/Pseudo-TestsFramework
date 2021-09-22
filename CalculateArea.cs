@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pseudo_TestsFramework
+﻿namespace Pseudo_TestsFramework
 {
 	public class CalculateArea
 	{
 		const double pi = 3.1415;
 
-		public decimal Square(decimal side){
+		public double Square(double side){
 			try
 			{
 				 return side * side;
@@ -21,7 +15,7 @@ namespace Pseudo_TestsFramework
 			}
 		}
 		
-		public decimal Rectangle(decimal b, decimal h){
+		public double Rectangle(double b, double h){
 			try
 			{
 				 return b * h;
@@ -32,7 +26,7 @@ namespace Pseudo_TestsFramework
 			}
 		}
 
-		public decimal Triangle(decimal b, decimal h)
+		public double Triangle(double b, double h)
 		{
 			try
 			{
@@ -44,7 +38,7 @@ namespace Pseudo_TestsFramework
 			}
 		}
 
-		public decimal Trapeze(decimal minorBase, decimal majorBase, decimal h)
+		public double Trapeze(double minorBase, double majorBase, double h)
 		{
 			try
 			{
